@@ -1,6 +1,7 @@
 package test.pivotal.pal.tracker.registration;
 
 import io.pivotal.pal.tracker.registration.App;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.springframework.web.client.RestTemplate;
 

@@ -149,6 +149,7 @@ public class FlowTest {
             .put("hours", 8)
             .build()
         );
+
         long createdTimeEntryId = findResponseId(response);
         assertThat(createdTimeEntryId).isGreaterThan(0);
 

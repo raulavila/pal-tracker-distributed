@@ -4,7 +4,7 @@ dependencies {
     testCompile "com.jayway.jsonpath:json-path:2.2.0"
 }
 
-test.dependsOn ":applications:allocations-server:build"
-test.dependsOn ":applications:backlog-server:build"
-test.dependsOn ":applications:registration-server:build"
-test.dependsOn ":applications:timesheets-server:build"
+test.dependsOn ":applications:allocations-server:assemble"
+test.dependsOn ":applications:backlog-server:assemble"
+test.dependsOn ":applications:registration-server:assemble"
+test.dependsOn ":applications:timesheets-server:assemble"
